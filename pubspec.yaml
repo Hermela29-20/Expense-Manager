@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   dio: ^5.0.3
+  
 
  # State management
   flutter_bloc: ^8.1.5
@@ -54,6 +55,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  assets:
+    - assets/screenshots/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

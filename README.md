@@ -1,17 +1,61 @@
 # expense_manager
 
-A new Flutter project.
+A Flutter application for managing expenses using Bloc state management, Dio HTTP client, and a clean layered architecture.  
+The app performs full CRUD (Create, Read, Update, Delete) operations using a public REST API.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+- View list of expenses (Read)
+- Add new expense (Create)
+- Update existing expense (Update)
+- Delete expense (Delete)
+- Loading states handling
+- Error handling
+- State management using Bloc
 
-A few resources to get you started if this is your first Flutter project:
+#  Project Structure
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+lib/
+│
+├── bloc/
+│   ├── expense_bloc.dart
+│   ├── expense_event.dart
+│   └── expense_state.dart
+│
+├── models/
+│   └── expense_model.dart
+│
+├── screens/
+│   ├── home_screen.dart
+│   └── manage_expense_screen.dart
+│
+├── services/
+│   └── api_service.dart
+│
+├── widgets/
+│   └── expense_card.dart
+│
+└── main.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+
+##  Home Screen
+
+assets/screenshots/Home_expense.png
+
+---
+
+##  Add / Edit Expense Screen
+
+assets/screenshots/Add_expense.png
+assets/screenshots/update_expense.png
+
+
+---
+
+## Delete Expense Action
+
+
+assets/screenshots/delete_expense.png
+
+---
