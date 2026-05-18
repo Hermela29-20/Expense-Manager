@@ -37,25 +37,22 @@ lib/
 │
 └── main.dart
 
-# Screenshots
+#  Screenshots
 
 ##  Home Screen
-
-assets/screenshots/Home_expense.png
-
----
-
-##  Add / Edit Expense Screen
-
-assets/screenshots/Add_expense.png
-assets/screenshots/update_expense.png
-
+![Home Screen](assets/screenshots/Home_expense.png)
 
 ---
 
-## Delete Expense Action
-
-
-assets/screenshots/delete_expense.png
+##  Add Expense Screen
+![Add Expense](assets/screenshots/Add_expense.png)
 
 ---
+
+##  Update Expense Screen
+![Update Expense](assets/screenshots/update_expense.png)
+
+---
+
+##  Delete Expense Action
+![Delete Expense](assets/screenshots/delete_expense.png)
